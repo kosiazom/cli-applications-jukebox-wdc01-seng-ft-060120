@@ -42,7 +42,7 @@ def play(songs)
   user_answer = gets.strip
        #user_answer = "1"
   if user_answer.to_i >= 1 &&  user_answer.to_i <= songs.length
-    
+    binding.pry
     puts "Playing #{songs[user_answer.to_i - 1]}"
     
   elsif songs.include?(user_answer)
