@@ -40,7 +40,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   user_answer = gets.strip
-  binding.pry
+
   if user_answer.to_i >= 1 &&  user_answer.to_i <= songs.length
     
     puts "Playing #{songs[user_answer.to_i - 1]}"
