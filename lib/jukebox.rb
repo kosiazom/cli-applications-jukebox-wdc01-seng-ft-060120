@@ -69,7 +69,7 @@ puts "Please enter a command:"
        list(songs)
     elsif user_input == "play"
       play(songs)
-    elsif user_input ==  "help"
+    elsif user_input == "help"
       help
     elsif user_input == "exit"
     exit_jukebox
